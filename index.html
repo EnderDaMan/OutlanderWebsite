@@ -119,8 +119,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </div>
   <!-- End Portfolio Section -->
   </div>
-  <div id="contact">
-    <video id="example_video_1" class="video-js vjs-default-skin" width="640" height="264" src="./SampleVideo_1280x720_1mb.mp4" type='video/mp4' />
+  <div class="w3-padding-64 w3-content" id="contact">
+    <video onclick="this.paused ? this.play() : this.pause(); arguments[0].preventDefault();" id="example_video_1" class="video-js vjs-default-skin" width="640" height="264" src="./SampleVideo_1280x720_1mb.mp4" type='video/mp4' />
     </video>
 
   </div>
